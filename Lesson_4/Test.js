@@ -12,6 +12,9 @@ class Test
     set testProp(testProp) {
         this._testProp = testProp;
     }
+    get testProp () {
+        return this._testProp;
+    }
     set name(name) {
         this._name = name.trim().toLowerCase();
     }
