@@ -3,6 +3,8 @@ class Test
     constructor() {
 
     }
+    #test = 'тестовое свойство'
+    #url = 'vk.com'
     // setTestProp(name){
     //     this._name = name.trim().toLowerCase();
     // }
